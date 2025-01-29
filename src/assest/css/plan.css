@@ -1,0 +1,122 @@
+.plan_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin: 2rem 0rem;
+}
+.planCard {
+    border-radius: 12px;
+    padding: 1rem 1.8rem 2rem 1.8rem;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.planCard:nth-of-type(2){
+    background-color: var(--button-bg-color);
+    color: #fff;
+}
+/* .planCard:hover {
+    background: var(--button-bg-color);
+    background: linear-gradient(90deg, var(--button-bg-color) 3%, rgba(2, 3, 2, 0.10688025210084029) 94%);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+} */
+
+/* .planCard:hover h2 {
+    background-color: #fff;
+    color: var(--button-bg-color);
+} */
+.planCard h2 {
+    font-size: 22px;
+    padding: 0.8rem 0rem;
+    font-weight: 600;
+    padding-left: 12px;
+    text-transform: uppercase;
+    font-family: ExoRegular;
+}
+.planCard h4 {
+    font-size: 16px;
+    padding-left: 12px;
+    font-weight: 600;
+    margin: 1rem 0rem 2rem 0rem;
+    font-family: ExoRegular;
+    text-transform: capitalize;
+}
+/* .planCard:hover h4 {
+    color: #fff;
+} */
+/* .planCard:hover ul li p {
+    color: #fff;
+} */
+.planCard ul {
+    padding-left: 12px;
+}
+.planCard ul li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+.planCard ul li p:first-child svg {
+    font-size: 22px;
+    padding-right: 8px;
+}
+.planCard ul li p {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: ExoRegular;
+    text-transform: capitalize;
+}
+
+@media (max-width: 991px) {
+    .plan_section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .plan_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+        margin: 2rem 0rem;
+    }
+    .planCard {
+        border-radius: 12px;
+        padding: 1rem 0.6rem 2rem 0.6rem;
+    }
+    .planCard h2 {
+        font-size: 18px;
+        padding: 0.4rem 0rem;
+        padding-left: 6px;
+    }
+    .planCard h4 {
+        padding-left: 4px;
+        margin: 0.6rem 0rem 1rem 0rem;
+    }
+
+    .planCard ul {
+        padding-left: 4px;
+    }
+    .planCard ul li {
+        margin-bottom: 0.2rem;
+        display: flex;
+        align-items: center;
+    }
+    .planCard ul li p {
+        margin-bottom: 0px;
+    }
+    .planCard ul li p:first-child svg {
+        font-size: 16px;
+        padding-right: 8px;
+    }
+}
+@media (max-width: 991px) {
+    .plan_section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .plan_wrapper {
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-gap: 1rem;
+        margin: 2rem 0rem;
+    }
+}

@@ -1,0 +1,17 @@
+.rk_team_card,
+.team_mem_detail_wrap {
+    padding: 120px 0px;
+}
+.rk_team_card a {
+    text-decoration: none;
+}
+.rk_team_card img {
+    height: 300px;
+}
+
+@media (max-width: 991px) {
+    .rk_team_card,
+    .team_mem_detail_wrap {
+        padding: 60px 0px;
+    }
+}

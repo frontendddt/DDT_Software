@@ -1,0 +1,82 @@
+[
+    {
+        "category": "Core features",
+        "items": [
+            {
+                "id": 1,
+                "heading": "Employee Information Management:",
+                "detail_of_heading": "A centralized database for storing and managing employee data, such as personal details, job roles, and compensation."
+            },
+            {
+                "id": 2,
+                "heading": "Payroll Management:",
+                "detail_of_heading": "Automated payroll processing, tax calculations, and salary distribution. This feature can reduce errors and save HR departments considerable time."
+            },
+            {
+                "id": 3,
+                "heading": "Attendance and Leave Management:",
+                "detail_of_heading": "Track employee attendance, working hours, and manage leave requests efficiently."
+            },
+            {
+                "id": 4,
+                "heading": "Recruitment & Onboarding:",
+                "detail_of_heading": "Streamline recruitment workflows, from posting job openings to managing applications and handling the onboarding process."
+            },
+            {
+                "id": 5,
+                "heading": "Performance Management:",
+                "detail_of_heading": "Tools for setting up performance reviews, tracking employee goals, and conducting evaluations."
+            },
+            {
+                "id": 6,
+                "heading": "Employee Self-Service Portal:",
+                "detail_of_heading": "Allow employees to view and update personal information, request leave, and access pay slips independently."
+            },
+            {
+                "id": 7,
+                "heading": "Reporting & Analytics:",
+                "detail_of_heading": "Generate reports related to various HR metrics, such as employee turnover, attendance rates, and compensation costs."
+            },
+            {
+                "id": 8,
+                "heading": "Compliance & Security:",
+                "detail_of_heading": "Ensure the system complies with labor laws, data privacy regulations, and industry standards. Highlight secure storage of sensitive employee data."
+            }
+        ]
+    },
+    {
+        "category": "Benefits of Using HRMS",
+        "items": [
+            {
+                "id": 1,
+                "heading": "Efficiency Gains:",
+                "detail_of_heading": "Automate manual tasks like payroll calculations, leave management, and attendance tracking to save time and reduce human error."
+            },
+            {
+                "id": 2,
+                "heading": "Improved Decision-Making:",
+                "detail_of_heading": "With data-driven insights from reporting tools, HR teams can make informed decisions about employee performance, staffing needs, and more."
+            },
+            {
+                "id": 3,
+                "heading": "Enhanced Employee Experience:",
+                "detail_of_heading": "An easy-to-use interface with a self-service portal empowers employees to manage their own HR-related tasks."
+            },
+            {
+                "id": 4,
+                "heading": "Cost Savings:",
+                "detail_of_heading": "Reducing paperwork and manual processes leads to cost savings in HR operations, allowing businesses to reallocate resources more effectively."
+            }
+        ]
+    },
+    {
+        "category": "Customization Options",
+        "items": [
+            {
+                "id": 1,
+                "heading": "Tailored Solutions:",
+                "detail_of_heading": "Discuss how the system can be tailored to meet the specific needs of the organization, such as custom fields, reports, or workflow automation."
+            }
+        ]
+    }
+]

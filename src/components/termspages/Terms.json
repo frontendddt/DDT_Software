@@ -1,0 +1,75 @@
+[
+    {
+        "id" : "1",
+        "qus" : "1. Acceptance of Terms",
+        "Ans"  : "By accessing and using this website, you agree to comply with these terms and conditions. If you do not agree, please refrain from using the site.",
+        "AnsId": "flush-collapseOne",
+        "dataBsTarget" : "#flush-collapseOne",
+        "ariaControls" : "flush-collapseOne"
+    },
+    {
+        "id" : "2",
+        "qus" : "2. Modification of Terms",
+        "Ans" : "We reserve the right to modify these terms at any time. Changes will be posted on this page, and it is your responsibility to review them regularly.",
+        "AnsId" : "flush-collapseTwo",
+        "dataBsTarget": "#flush-collapseTwo",
+        "ariaControls": "flush-collapseTwo"
+    },
+    {
+        "id" : "3",
+        "qus" : "3. Use of Website",
+        "Ans" : "You agree to use the website for lawful purposes only. You must not use the site in a way that may damage or impair its functionality.",
+        "AnsId": "flush-collapseThree",
+        "dataBsTarget": "#flush-collapseThree",
+        "ariaControls": "flush-collapseThree"
+    },
+    {
+        "id": "4",
+        "qus": "4. Intellectual Property",
+        "Ans": "All content, trademarks, and other intellectual property on the website are the property of DDT Software & Ecomm Pvt Ltd. Unauthorized use is prohibited.",
+        "AnsId": "flush-collapseFour",
+        "dataBsTarget": "#flush-collapseFour",
+        "ariaControls": "flush-collapseFour"
+    },
+    {
+        "id": "5",
+        "qus": "5. User Accounts",
+        "Ans": "If you create an account, you are responsible for maintaining the confidentiality of your login information and for all activities that occur under your account.",
+        "AnsId": "flush-collapseFive",
+        "dataBsTarget": "#flush-collapseFive",
+        "ariaControls": "flush-collapseFive"
+    },
+    {
+        "id": "6",
+        "qus": "6. Product Information",
+        "Ans": "While we strive to provide accurate product descriptions, we do not warrant that product information is complete or error-free. Prices and availability are subject to change without notice.",
+        "AnsId": "flush-collapseSix",
+        "dataBsTarget": "#flush-collapseSix",
+        "ariaControls": "flush-collapseSix"
+    },
+    {
+        "id": "7",
+        "qus": "7. Limitation of Liability",
+        "Ans": "DDT Software & Ecomm Pvt Ltd is not liable for any indirect, incidental, or consequential damages arising from your use of the website or any products purchased.",
+        "AnsId": "flush-collapseSeven",
+        "dataBsTarget": "#flush-collapseSeven",
+        "ariaControls": "flush-collapseSeven"
+    },
+    {
+        "id": "8",
+        "qus": "8. Governing Law",
+        "Ans": "These terms shall be governed by and construed in accordance with the laws of India.",
+        "AnsId": "flush-collapseEight",
+        "dataBsTarget": "#flush-collapseEight",
+        "aria-controls": "flush-collapseEight"
+    },
+    {
+        "id": "9",
+        "qus": "9. Contact Information",
+        "Ans": "For any questions about these terms, please contact us at info@ddtsoftwareandecommerce.com .",
+        "AnsId": "flush-collapseNine",
+        "dataBsTarget": "#flush-collapseNine",
+        "ariaControls": "flush-collapseNine"
+    }
+    
+]

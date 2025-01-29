@@ -1,0 +1,95 @@
+.footer_Wrapper {
+    background-color: var(--button-bg-color);
+    padding-top: 0px !important;
+}
+.footer_top {
+    /* border-bottom: 1px solid var(--border2); */
+}
+.footer_card {
+    display: flex;
+    padding: 2.6rem 0rem;
+    /* border-right: 1px solid var(--border2); */
+}
+.card_icon {
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+.card_icon svg {
+    color: var(--bg-white);
+    font-size: 24px;
+}
+.f_c_text {
+    margin-left: 2rem;
+}
+.f_c_text .sub_heading_title2 {
+    margin: 0px 0px 5px 0px !important;
+}
+.f_c_text p,
+.f_c_text a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0 -0.15em 0;
+}
+
+/* FOOTER BOTTOM CSS START */
+.footer_bottom {
+    padding: 2.6rem 0rem;
+}
+.footer_bottom img{
+    width: 200px;
+}
+.footer_bottom a {
+    color: #fff;
+    margin: 10px 0px;
+    font-family: light;
+    display: block;
+    text-decoration: none;
+}
+.footer_bottom a :hover {
+    color: var(--button-bg-color);
+}
+.footer_bottom p {
+    color: #fff;
+    margin: 1rem 0;
+}
+.footer-ul{
+    padding-left:0 !important;
+}
+.footer_bottom .social_link {
+    display: flex;
+}
+.footer_bottom .social_link a {
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+} 
+.copyright p{
+text-align: center;
+color:#fff;
+margin-bottom: 0;
+padding-bottom: 5px;
+}
+hr{
+    color: #fff !important;
+}
+@media (max-width: 991px) {
+    .footer_card {
+        display: flex;
+        align-items: center;
+        padding: 2.6rem 0rem;
+        border-right: 0px;
+        border-bottom: 1px solid var(--border2);
+    }
+}

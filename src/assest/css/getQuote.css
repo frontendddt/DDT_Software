@@ -1,0 +1,71 @@
+.get_touch_wrap {
+    padding: 120px 0px;
+}
+.get_touch_wrap h3 {
+    text-align: left !important;
+    margin-bottom: 0 !important;
+    font-size: 24px;
+}
+.get_touch_wrap .contact_us_form {
+    padding: 2rem 3rem 3rem;
+    height: 100%;
+}
+.office_address {
+    background-color: var(--smoke-color);
+    padding: 3rem;
+}
+.office_address ul li h3 {
+    text-transform: uppercase;
+    display: block;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: ExoRegular;
+    margin: 10px 0px;
+    display: block;
+}
+.office_address ul li {
+    display: flex;
+    align-items: flex-start;
+    padding: 1.6rem 0;
+    border-bottom: 1px solid var(--border2);
+}
+.office_address li svg {
+    font-size: var(--font-size-icon);
+    color: var(--link-color2);
+    margin-right: 15px;
+}
+.get_touch_wrap .form-row {
+    padding-top: 2.2rem;
+}
+.submt_btn_div {
+    display: flex;
+    justify-content: flex-start !important;
+}
+@media (max-width: 991px) {
+    .get_touch_wrap {
+        padding: 60px 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .get_touch_wrap .contact_us_form {
+        padding: 1rem 1rem 2rem;
+        height: 100%;
+    }
+    .office_address {
+        padding: 1.2rem 1rem;
+    }
+    .office_address ul li h3 {
+        font-size: 16px;
+    }
+    .get_touch_wrap h3 {
+        font-size: 20px;
+    }
+    .office_address ul li {
+        padding: 1rem 0;
+    }
+    .get_touch_wrap .form-row {
+        padding-top: 1.2rem;
+    }
+}

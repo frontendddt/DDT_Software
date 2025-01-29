@@ -1,0 +1,11 @@
+.liststyle{
+    list-style: disc;
+}
+.liststyle li{
+    margin-bottom: .8rem;
+    font-size: 14px;
+    font-family: "Regular";
+}
+.titleh3m{
+    margin: 1.7rem 0 1rem 0;
+}

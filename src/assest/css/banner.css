@@ -1,0 +1,265 @@
+.banner_wrapper {
+    width: 100%;
+    margin-top: 1rem;
+    max-height: 800px;
+}
+.banner_wrapper .carousel-item {
+    position: relative;
+    max-height: 800px;
+}
+/* .banner_wrapper .carousel-item.active {
+    background: url("../images/banner1.jpg");
+} */
+.banner_wrapper .carousel-item.active img {
+    animation: move 2s ease-in-out !important;
+    -ms-animation: move 2s ease-in-out;
+    -webkit-animation: move 2s ease-in-out;
+    -o-animation: move 2s ease-in-out;
+    -moz-animation: move 2s ease-in-out;
+    left: -150px;
+    top: -150px;
+}
+@keyframes move {
+    from {
+        opacity: 0.1;
+        transform: scale(1, 1);
+        /* transform: rotate(90deg); */
+        /* -ms-transform: scale(0.7, 0.7);
+        -webkit-transform: scale(0.7, 0.7);
+        -o-transform: scale(0.7, 0.7);
+        -moz-transform: scale(0.7, 0.7); */
+    }
+    to {
+        opacity: 1;
+        transform: scale(1.01, 1.01);
+        /* transform: rotate(360deg); */
+        /* transform: scale(1, 1);
+        -ms-transform: scale(1, 1);
+        -webkit-transform: scale(1, 1);
+        -o-transform: scale(1, 1);
+        -moz-transform: scale(1, 1); */
+    }
+}
+.banner_wrapper .carousel-caption {
+    position: absolute;
+    top: 25%;
+    left: 16.8%;
+}
+
+.banner_head {
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.banner_head p {
+    font-size: 18px;
+    text-decoration: none;
+    font-family: ExoRegular;
+    display: inline-block;
+    color: var(--button-color);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: left;
+    font-style: normal;
+    border-style: solid;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 7px 17px;
+    margin: 0px;
+    z-index: auto;
+    width: auto;
+    height: auto;
+    filter: none;
+    animation: leftText 1.6s 1 linear;
+}
+@keyframes leftText {
+    0% {
+        transform: translateX(-400%);
+    }
+    50% {
+        transform: translateX(-15%);
+        display: none;
+    }
+    100% {
+        transform: translateX(0);
+        display: inline-block;
+    }
+}
+.banner_head h2 {
+    font-family: ExoSemiBold;
+    color: var(--button-color);
+    background-size: inherit;
+    background-position: inherit;
+    font-size: 45.2211px;
+    margin: 2rem 0;
+    line-height: 70px;
+    z-index: auto;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    border-width: 0px;
+    filter: none;
+    animation: rightcome 1.6s 1 linear;
+}
+
+.read_more_links a:first-child {
+    margin-right: 2rem;
+    display: inline-block;
+}
+/* ROTATION CSS ANIMATION START */
+.rotation_effect_bx {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    margin-top: -50px;
+    transform: rotate(15deg);
+    animation: leftcome 1.6s 1 linear;
+}
+.blue_rotation {
+    font-size: 27.1326px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: 400;
+    letter-spacing: 0px;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    width: 226.105px;
+    height: 1174.24px;
+    background-color: #184375;
+    top: -356.493px;
+    left: 38.4379px;
+    margin: 0px;
+    z-index: auto;
+    padding: 0px;
+    border-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    filter: none;
+}
+
+.dark_rotation {
+    font-size: 27.1326px;
+    color: rgba(255, 255, 255, 0);
+    text-align: left;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: 400;
+    letter-spacing: 0px;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(172deg, rgba(5, 26, 79, 0.35) 21%, rgba(0, 0, 0, 0) 54%);
+    margin: 0px;
+    z-index: auto;
+    padding: 0px;
+    border-width: 0px;
+    background-color: rgba(255, 255, 255, 0);
+    filter: none;
+    width: 443.92px;
+    height: 1371.48px;
+}
+@keyframes leftcome {
+    0% {
+        transform: translateX(-400%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 1300px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 30px !important;
+    }
+    .banner_wrapper .carousel-caption {
+        position: absolute;
+        top: 25%;
+        left: 8%;
+    }
+    .banner_wrapper {
+        max-height: 600px;
+    }
+    .banner_wrapper .carousel-item {
+        max-height: 600px;
+    }
+}
+@media (max-width: 991px) {
+    .rotation_effect_bx {
+        margin-top: -80px;
+    }
+    .banner_head p {
+        font-size: 16px;
+    }
+    .banner_head h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .banner_wrapper .carousel-caption {
+        position: absolute;
+        top: 25%;
+        left: 10.8%;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 30px !important;
+    }
+}
+@media (max-width: 767px) {
+    .banner_head h2 br {
+        display: none;
+    }
+    .banner_head p {
+        display: none;
+    }
+    .banner_wrapper {
+        max-height: 100%;
+    }
+    .banner_wrapper .carousel-item {
+        max-height: 100%;
+    }
+    .banner_wrapper .carousel-item img {
+        height: 360px;
+    }
+    .dark_rotation {
+        width: 198.4px;
+        height: 612.952px;
+    }
+    .blue_rotation {
+        width: 101.053px;
+        height: 524.8px;
+    }
+    .banner_wrapper .carousel-caption {
+        position: absolute;
+        top: 2%;
+        left: 16.8%;
+    }
+}
+@media (max-width: 767px) {
+    .banner_head h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .banner_wrapper .carousel-caption {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+}
+@media (max-width: 567px) {
+    .read_more_links a:first-child {
+        margin-right: 10px; 
+    }
+}

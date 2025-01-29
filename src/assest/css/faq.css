@@ -1,0 +1,110 @@
+.faq_section {
+    background-image: url("../images/faqbg2.jpg");
+    background-position: 0 -100%;
+    background-repeat: no-repeat;
+    background-size: 1140px;
+    position: relative;
+    width: 100%;
+}
+.faq_wrapper {
+    background-image: url("../images/faqbg.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 1120px;
+    padding: 120px 0px 120px 0px;
+    position: relative;
+    width: 100%;
+}
+.img_wrapping {
+    position: relative;
+}
+.img_wrapping img {
+    width: 100%;
+}
+.img-2 {
+    position: absolute;
+    right: 40px;
+    bottom: -100px;
+    border: 10px solid #fff;
+    border-radius: 10px 0px 10px 0px;
+}
+
+/* TEXT CSS START */
+.faq_text {
+    padding-left: 2rem;
+}
+.accordion-item {
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.accordion-button {
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    padding: 14.5px 0;
+    color: var(--text-color);
+    font-size: 20px;
+    font-family: "ExoSemiBold";
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: var(--text-color) !important;
+    outline: 0;
+    border-radius: 5px;
+    box-shadow: none !important;
+}
+
+/* QUOTE CSS START */
+.quote_wrapper {
+    background-image: url("../images/quoteImg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px 50px 0px;
+    position: relative;
+}
+.q_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+    .faq_section {
+        padding: 0px !important;
+        margin-bottom: 0;
+    }
+    .faq_text {
+        margin-top: 100px;
+        padding-left: 0px;
+    }
+    .faq_section {
+        background-image: none;
+    }
+    .faq_wrapper {
+        background-image: url("../images/faqbg.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 120px 0px 120px 0px;
+        position: relative;
+        width: 100%;
+    }
+    .q_text {
+        display: block;
+    }
+    .q_text div{
+        margin: 20px 0px;
+    }
+}
+@media (max-width: 767px) {
+    .faq_text {
+        margin-top: 140px;
+    }
+    .faq_wrapper {
+        padding: 60px 0px 60px 0px !important;
+    }
+    .faq_section {
+        padding: 0px !important;
+    }
+}

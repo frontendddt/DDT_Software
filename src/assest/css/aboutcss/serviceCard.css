@@ -1,0 +1,193 @@
+.service_card_wrapper {
+    padding: 120px 0px;
+}
+.service_card_b_e {
+    background-color: #fff;
+    box-shadow: 0px 16px 47px rgba(78, 111, 178, 0.07) Im !important;
+    border-radius: 5px;
+    position: relative;
+    transition: all ease 0.4s;
+    overflow: hidden;
+}
+/* .service_card_wrapper .service_card {
+    background-color: transparent !important;
+    box-shadow: none !important;
+} */
+.service_card_b_e .service_card:hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* height: 100%; */
+    border-radius: inherit;
+    opacity: 1;
+    visibility: visible;
+    transition: all ease 0.4s;
+    transform: scale(1.1);
+    background: url("../../images/cardboxbg.jpg");
+}
+
+.service_card_b_e .service_card span {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    background-color: var(--smoke-color);
+    border-radius: 50%;
+    margin: 0 0 28px 0;
+}
+.service_card_b_e .service_card:hover .head_img,
+.service_card_b_e .service_card:hover .service_title,
+.service_card_b_e .service_card:hover .detail_text {
+    color: #fff;
+}
+
+.service_card_b_e .service-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 27px 0;
+}
+.service_card_wrapper .service-number {
+    line-height: 1;
+    color: rgba(14, 89, 242, 0.1);
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Exo", sans-serif;
+    margin-top: 4px !important;
+    background-color: transparent !important;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* TECHNICAL NEED SERVICE START */
+.tech_need_wrap {
+    background-image: url("../../images/about-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0px;
+}
+/* .query_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+.query_cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 2px solid var(--text-color2);
+    padding: 0px 30px 0px 0px;
+}
+.founder_bx {
+    padding: 0px 0px 0px 10px;
+}
+.founder_bx p {
+    font-size: 14px;
+    color: #55595d;
+    margin-bottom: 0px;
+    font-family: ExoRegular;
+    display: block;
+}
+.founder_bx h2 {
+    font-size: 24px;
+    font-family: ExoSemiBold;
+}
+.query_cont span {
+    background-color: #fff;
+    border-radius: 50%;
+}
+.query_cont span svg {
+    font-size: 20px;
+    margin: 10px;
+}
+.call_nm {
+    background-color: transparent !important;
+    display: block;
+    text-align: right;
+}
+.queryborder{
+    border-right: none;
+}
+.centerterm{
+    text-align: center;
+}
+.myterms{
+    margin-bottom: 1rem;
+}
+.maxcard{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.myterms h3{
+    font-size: 19px;
+}
+.myterms p{
+    padding-left: 17px;
+}
+ /* .call_nm p {
+    font-size: 14px;
+    color: #55595d;
+    margin-bottom: 0px;
+    font-family: ExoRegular;
+    display: block;
+} */
+ .call_nm a {
+    /* font-size: 20px; */
+    /* font-family: ExoRegular; */
+    margin:0px 0px;
+    text-decoration: none;
+}
+@media (max-width: 1200px) {
+    .query_cont {
+        padding: 0px 20px 0px 0px;
+    }
+}
+@media (max-width: 991px) {
+    .tech_need_wrap,
+    .service_card_wrapper {
+        padding: 60px 0;
+    }
+    .order_box {
+        order: 2;
+    }
+    .order_box1 {
+        order: 1;
+    }
+    .query_cont {
+        justify-content: flex-start;
+        border-right: 0px;
+        margin: 15px 0px;
+    }
+    .query_cont .call_nm {
+        margin-left: 10px;
+        text-align: left;
+    }
+    /* .call_nm a {
+        font-size: 16px;
+    } */
+}
+@media (max-width: 767px) {
+    .service_card .detail_text {
+        text-align: left;
+    }
+
+    .query_cont {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        border-right: 0px;
+    }
+    .query_cont .call_nm {
+        border-radius: 0%;
+        margin-left: 20px;
+    }
+    .founder_bx h2 {
+        font-size: 18px;
+    }
+    .call_nm a{
+        font-size: 14px;
+    }
+}

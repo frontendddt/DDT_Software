@@ -1,0 +1,240 @@
+.team_mem_wrapper {
+    padding: 120px 0px 120px 0px;
+    position: relative;
+    transform: translateY(450px);
+    opacity: 0;
+    transition: 2s all ease;
+    height: auto;
+}
+.team_mem_wrapper.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+.team_leaders a {
+    text-decoration: none;
+}
+.team_style_card {
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: var(--white-color);
+    box-shadow: 0px 10px 31px rgba(169, 177, 193, 0.17);
+    border-radius: 5px;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+.team_style_card .img_wrap {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.team_style_card .img_wrap img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.img_wrap .social {
+    z-index: -2;
+    position: absolute;
+    bottom: -122px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+}
+.img_wrap .social div {
+    background-color: var(--button-bg-color);
+    border-radius: 5px;
+    width: 80%;
+    padding: 3px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.img_wrap .social a {
+    transition: 500ms infinite;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.img_wrap .social svg {
+    color: #fff;
+    margin: 10px 15px;
+}
+
+.team_style_card:hover {
+    background-color: aliceblue;
+}
+
+.team_style_card:hover .social {
+    animation: bounce 0.5s ease-in-out;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-8px);
+    }
+    25% {
+        transform: translateY(-6px);
+    }
+    50% {
+        transform: translateY(-4px);
+    }
+    75% {
+        transform: translateY(-2px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+/* TEAM MEMBER DETAIL CARD CSS */
+.team_mem_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team_mem_img img {
+    width: 80%;
+}
+.team_mem_dt_card {
+    height: 100%;
+}
+.team_mem_dt_card span {
+    margin: 2rem 0 2.4rem;
+}
+.team_mem_dt_card a {
+    border: 1px solid var(--button-bg-color);
+    display: inline-block;
+}
+.team_mem_dt_card a:hover {
+    border: 1px solid var(--button-bg-color);
+}
+.team_mem_dt_card .card_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.team_mem_dt_card .card_body ul {
+    display: block;
+    padding-left: 0;
+    margin: 0;
+}
+.team_mem_dt_card .card_body li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+.team_mem_dt_card .card_body li span {
+    display: inline-block;
+    border: 1px solid #e8eefc;
+    text-align: center;
+    color: var(--link-color2);
+    margin: 0 20px 0 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.team_mem_dt_card .card_body li span svg {
+    font-size: var(--font-size-icon);
+}
+.team_mem_dt_card .list_item p:last-child {
+    color: var(--text-color);
+}
+.team_mem_dt_card .list_item p {
+    margin-bottom: 0;
+}
+
+/* CONTACT FORM WRAPPER CSS START */
+.contact_frm_wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0px 0px 120px 0px;
+}
+.contact_us_form p {
+    font-size: 18px;
+}
+.contact_us_form h3 {
+    margin-bottom: 3rem;
+}
+.contact_frm_wrapper .contact_us_form {
+    width: 60%;
+    background-color: var(--smoke-color);
+    padding: 1rem;
+}
+.contact_us_form a {
+    border: 1px solid var(--button-bg-color);
+}
+.contact_us_form .form-control,
+.contact_us_form .form-select {
+    background-color: var(--bg-white);
+    border: none;
+    font-size: 16px;
+    padding-left: 25px;
+    color: var(--link-coolor);
+    min-height: 50px;
+    font-family: "ExoRegular";
+}
+.contact_us_form .form-control:focus,
+.contact_us_form .form-select:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+@media (max-width: 991px) {
+    .team_mem_wrapper {
+        padding: 60px 0px 60px 0px;
+    }
+    .contact_frm_wrapper {
+        padding: 0px 0px 60px 0px;
+    }
+
+    /* TEAM MEM DETAIL MEDIA QUERY START */
+    .team_mem_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .team_mem_img img {
+        width: 100%;
+    }
+    .team_mem_dt_card {
+        padding-top: 1rem;
+        height: 100%;
+    }
+    .team_mem_dt_card .card_body {
+        margin-bottom: 2rem;
+    }
+    .team_mem_dt_card span {
+        margin: 2rem 0 2.4rem;
+    }
+    .team_mem_dt_card .card_body li span {
+        width: 40px;
+        height: 40px;
+    }
+    /* CONATC FORM CSS */
+    .contact_frm_wrapper .contact_us_form {
+        width: 90%;
+    }
+}
+
+@media (max-width: 767px) {
+    .team_mem_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .team_mem_dt_card .card_body {
+        margin-bottom: 2rem;
+        display: block;
+    }
+    .team_mem_dt_card span {
+        margin: 1rem 0 1.4rem;
+    }
+}

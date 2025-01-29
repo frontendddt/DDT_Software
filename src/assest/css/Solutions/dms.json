@@ -1,0 +1,96 @@
+{
+    "sections": [
+        {
+            "title": "Key Features of a Document Management System",
+            "items": [
+                {
+                    "heading": "Document Storage & Organization",
+                    "detail_of_heading": "Securely store documents in a centralized repository. Files can be organized using folders, categories, and metadata, making it easier to find, retrieve, and manage."
+                },
+                {
+                    "heading": "Version Control",
+                    "detail_of_heading": "Automatically track document versions, so users can access and revert to previous versions when needed. This is especially important for collaborative projects where multiple users are editing the same document."
+                },
+                {
+                    "heading": "Search and Retrieval",
+                    "detail_of_heading": "Robust search functionality that allows users to search for documents by keywords, metadata, or tags. Fast search and retrieval make it easy to locate the right document in seconds."
+                },
+                {
+                    "heading": "Access Control & Permissions",
+                    "detail_of_heading": "Control who can view, edit, or delete documents. Set user-specific access levels (e.g., admin, viewer, editor) to ensure that sensitive information is protected and accessible only to authorized personnel."
+                },
+                {
+                    "heading": "Document Sharing & Collaboration",
+                    "detail_of_heading": "Allow employees to share documents easily with colleagues or clients, either through secure links or direct file-sharing options. Collaborative features may include real-time editing and commenting."
+                },
+                {
+                    "heading": "Audit Trails",
+                    "detail_of_heading": "Track every action performed on a document, from viewing to editing or sharing. Audit trails help monitor document activity and provide transparency for compliance audits."
+                },
+                {
+                    "heading": "Workflow Automation",
+                    "detail_of_heading": "Automate document-centric workflows, such as approval processes or review cycles, to speed up business processes and reduce the risk of human error."
+                },
+                {
+                    "heading": "Integration with Task Management Tools",
+                    "detail_of_heading": "Integration with Task Management enhances the DMS functionality, ensuring a seamless workflow between departments and systems."
+                },
+                {
+                    "heading": "Mobile Access",
+                    "detail_of_heading": "Enable access to documents from mobile devices for remote teams or fieldwork, making it easier to view, upload, or share files while on the go."
+                }
+            ]
+        },
+        {
+            "title": "Benefits of Using a Document Management System",
+            "items": [
+                {
+                    "heading": "Increased Efficiency",
+                    "detail_of_heading": "Centralizing document storage and streamlining access to files significantly reduces the time spent searching for documents. Automated workflows also cut down on administrative tasks."
+                },
+                {
+                    "heading": "Cost Savings",
+                    "detail_of_heading": "Reduce printing, paper storage, and physical filing costs. With fewer resources required to manage documents, companies can save money and improve their environmental footprint."
+                },
+                {
+                    "heading": "Enhanced Collaboration",
+                    "detail_of_heading": "A DMS improves teamwork by providing a platform where documents can be shared, edited, and commented on in real time, regardless of team members' physical location."
+                },
+                {
+                    "heading": "Better Security & Compliance",
+                    "detail_of_heading": "A DMS ensures sensitive data is protected, while compliance tools help businesses meet industry regulations and avoid penalties. Audit trails and controlled access provide peace of mind."
+                },
+                {
+                    "heading": "Disaster Recovery & Backup",
+                    "detail_of_heading": "Digital document storage reduces the risk of losing important documents due to fire, theft, or natural disasters. Cloud-based systems provide automated backups for additional protection."
+                },
+                {
+                    "heading": "Improved Document Control",
+                    "detail_of_heading": "With version control, document tracking, and detailed permissions, businesses can better manage who has access to documents and ensure that only the latest versions are used."
+                }
+            ]
+        },
+        {
+            "title": "How a Document Management System Works",
+            "items": [
+                {
+                    "heading": "Step-by-Step Process",
+                    "detail_of_heading": "Describe the process of using a DMS — from scanning or uploading documents to organizing them in the system, setting access permissions, and sharing them with team members. Highlight how the system automates tasks and simplifies document workflows."
+                },
+                {
+                    "heading": "Example Workflow",
+                    "detail_of_heading": "Include a simple example of a document workflow, such as a document approval process where employees submit files for review, managers approve or make edits, and the document is finalized and archived."
+                }
+            ]
+        },
+        {
+            "title": "DMS vs Traditional Document Management",
+            "items": [
+                {
+                    "heading": "Comparison",
+                    "detail_of_heading": "Compare a digital document management system to traditional physical filing systems (e.g., paper documents or local storage). Highlight how a DMS is more secure, efficient, scalable, and organized."
+                }
+            ]
+        }
+    ]
+}

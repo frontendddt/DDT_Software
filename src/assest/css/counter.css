@@ -1,0 +1,44 @@
+.counter_wrapper {
+    background-image: url("../images//counterbg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0px 120px 0px;
+}
+.counter_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter_card .head_img {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    margin: 0 25px 0 0;
+    background-color: var(--button-bg-color);
+    border-radius: 5px;
+}
+.counter_text h3 {
+    margin-bottom: 0rem;
+    color: #fff;
+}
+.counter_text p {
+    color: #fff;
+    margin-bottom: 0;
+}
+@media (max-width: 991px) {
+    .counter_wrapper {
+        padding: 60px 0px 30px 0px;
+    }
+    .counter_card {
+        display: block;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .counter_card .head_img {
+        margin: 0px;
+        margin-bottom: 25px;
+    }
+}
