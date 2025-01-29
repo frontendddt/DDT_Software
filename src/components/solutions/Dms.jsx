@@ -17,7 +17,7 @@ export const Dms = () =>
             <Breadcrumb pageHeader="Document Management Systems" />
             <section>
                 <div className="tms_bg">
-                    <div className="pt-2 pb-5 container" style={{ maxWidth: '1000px' }}>
+                    <div className="pt-5 pb-5 container" style={{ maxWidth: '1000px' }}>
                         <h2 className="main_heading_title text-center">Document Management Systems </h2>
 
                         <div>
@@ -30,24 +30,6 @@ export const Dms = () =>
                             </p>
                             <div>
 
-                                {
-                                    // dmsdata.map((dmsElement, index) =>
-                                    // (
-                                    //     <div className="mt-5" key={index}>
-                                    //         <h5>{dmsElement.title}</h5>
-                                    //         <ul className='liststyleHrm'>
-                                    //             {
-                                    //                 dmsElement.items.map((liItems, index) => (
-                                    //                     <li className="mt-3" key={`0${index}`}>
-                                    //                         <strong>{liItems.heading} </strong><br></br>
-                                    //                         {liItems.detail_of_heading}
-                                    //                     </li>
-                                    //                 ))
-                                    //             }
-                                    //         </ul>
-                                    //     </div>
-                                    // ))
-                                }
                                 <div class="accordion" id="accordionExample">
                                     {
                                         dmsdata.map((dmsElement, index) =>(
