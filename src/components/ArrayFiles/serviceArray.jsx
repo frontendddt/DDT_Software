@@ -38,9 +38,290 @@ import Mob_Dev05 from "../../assest/images/App Testing And Quality Assurance.png
 import Mob_Dev06 from "../../assest/images/App Deployment And Support.webp";
 
 import software from "../../assest/images/servicesoftware.svg";
+import staffimg from "../../assest/images/staff.PNG";
+
 const serviceArray = [
     {
         id: 1,
+        identity: "web-services",
+        icon: web,
+        title: "Web Development",
+        detail: "At DDT Software & Ecomm Pvt. Ltd, we specialize in creating dynamic, secure, and scalable web applications tailored to your business needs...",
+        incldet: "Here's what our service includes",
+        head: "unique business needs",
+        hdpara: "At DDT Software & Ecomm Pvt. Ltd, we specialize in creating dynamic, secure, and scalable web applications tailored to your business needs. Our expert developers leverage the latest technologies to deliver custom web applications that streamline operations, enhance user experiences, and drive business growth",
+        mission: "Our Mission",
+        missionContent: "To be the catalyst for digital success by delivering exceptional, bespoke web development solutions that drive growth and foster lasting connections.",
+        servincld: [
+            {
+                id: 1,
+                "pic": Web_Dev,
+                ser: "Custom Website Development",
+                "mission": "Our Mission",
+                "mission_content": "Our mission is to be the preferred partner for businesses seeking custom web development solutions. We aim to provide seamless, secure, and scalable websites that not only meet but exceed our clients' expectations, fostering growth and success in the digital landscape.",
+                link: "custom-website-development",
+                "content": "DDT SOFTWARE & E-COMM PVT LTD is a leading Custom Website Development Company committed to delivering innovative and tailored web solutions that meet the unique needs of our clients. With a focus on cutting-edge technologies and creative design, we strive to empower businesses to establish a distinctive online presence.",
+                "head": "Expertise",
+                "innercontent": "Our team consists of skilled developers, designers, and project managers with a passion for creating unique and effective web solutions. We stay abreast of emerging technologies and design trends to deliver websites that stand out in the competitive online landscape.",
+                "head2": "Clientele",
+                "innercontent2": "DDT SOFTWARE & E-COMM PVT LTD has successfully collaborated with a diverse range of clients, including startups, small businesses, and large enterprises. Our custom website development solutions have played a pivotal role in helping clients achieve their online goals and enhance their digital presence.",
+                "head3": "Technology Stack",
+                "innercontent3": "We leverage a comprehensive set of technologies, including but not limited to HTML5, CSS3, JavaScript, PHP, Python, and popular frameworks such as React, Angular, and Vue.js.",
+            
+            },
+            {
+                id: 2,
+                "pic": Web_Dev01,
+                ser: "Responsive Design",
+                link: "responsive-design",
+                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+                // "head": "This is heading",
+                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+            },
+            {
+                id: 3,
+                "pic": Web_Dev02,
+                ser: "Content Management Systems (CMS)",
+                link: "content-management-systems",
+                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+                // "head": "This is heading",
+                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+            },
+            {
+                id: 4,
+                "pic": Web_Dev03,
+                ser: "Web Application Development",
+                link: "web-application-development",
+                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+                // "head": "This is heading",
+                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+            },
+            {
+                id: 5,
+                "pic": Web_Dev04,
+                ser: "Website Maintenance and Support",
+                link: "website-maintenance-and-support",
+                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+                // "head": "This is heading",
+                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+            },
+            {
+                id: 6,
+                "pic": Web_Dev05,
+                ser: "Full Stack Development ",
+                "mission": "Our Mission",
+                "mission_content": "Our mission is to be the preferred partner for businesses seeking full-stack development expertise. We aim to provide holistic solutions that seamlessly integrate the front-end and back-end aspects of software development, delivering robust and user-friendly applications.",
+                link: "Full-Stack-Development",
+                "content": "DDT SOFTWARE & E-COMM PVT LTD is a leading Full Stack Development Company, specializing in end-to-end solutions that encompass both front-end and back-end development. With a commitment to excellence and innovation, we empower businesses to navigate the digital landscape with comprehensive and scalable applications.",
+                "head": "Expertise",
+                "innercontent": "Our team comprises versatile and skilled full-stack developers, UI/UX designers, and software architects. We possess expertise in a wide range of technologies, ensuring that our clients benefit from comprehensive and up-to-date solutions.",
+                "head2": "Clientele",
+                "innercontent2": "DDT SOFTWARE & E-COMM PVT LTD has successfully collaborated with a diverse range of clients, including startups, enterprises, and organizations across various industries. Our full-stack development solutions have played a crucial role in helping clients achieve digital transformation and business success.",
+                "head3": "Technology Stack",
+                "innercontent3": "We leverage a comprehensive technology stack, including front-end technologies such as React, Angular, and Vue.js, and back-end technologies such as Node.js, Django, Flask, and Ruby on Rails.",
+            },
+        ],
+        faqs: [
+            {
+                id: 1,
+                que: "Innovative Approach",
+                ans: ": We embrace the latest web technologies and design trends to deliver innovative and future-ready solutions."
+            },
+            {
+                id: 2,
+                que: "Collaborative Partnership",
+                ans: " We view our clients as partners and work collaboratively to turn their visions into digital reality, ensuring transparency and communication throughout the process."
+            },
+            {
+                id: 3,
+                que: "Experienced Team",
+                ans: "Our team of skilled developers, designers, and strategists bring a wealth of experience to every project, ensuring top-notch quality and results."
+            },
+            {
+                id: 4,
+                que: "Client Satisfaction",
+                ans: "Our success is measured by the satisfaction of our clients. We are committed to delivering projects on time, within budget, and exceeding expectations."
+            },
+            {
+                id: 5,
+                que: "Are you considering migrating existing application ?",
+                ans: "If you're considering migrating your existing applications, databases, or infrastructure to the cloud, we provide seamless migration services. Our team ensures a smooth transition, minimizing downtime and disruption to your business operations. We assess your current systems, plan the migration strategy, and execute the migration process efficiently."
+            },
+        ],
+        faqsHead: "Why Choose DDT Software",
+        link: "/webdevlopement",
+    },
+    {
+        id: 2,
+        identity: "digital-marketing",
+        icon: marketing,
+        title: "Digital Marketing",
+        detail: "Enhance your brand’s online presence with result-driven digital marketing strategies, including SEO, social media, PPC, and content marketing,...",
+        incldet: "Here's what our service includes",
+        head: "Comprehensive digital marketing solutions",
+        hdpara: "By becoming completely transparent, we have been able to shine a light on how you successfully market an online business through all forms of digital marketing. We have years of experience navigating the fast-evolving digital landscape and delivering quality digital marketing services. We have a long history of delivering successful business outcomes for clients from diverse industry verticals.",
+        servincld: [
+            {
+                id: 1,
+                ser: "Search Engine Optimization (SEO)",
+                pic: "https://www.celltob.in/img/ui/seo.jpg",
+                link: "seo",
+                content: "Ranking your website/business in Google is easier than you think if you use right tailor-made SEO strategy to rank on top keywords of your niche.",
+               // "head": "This is heading",
+                //"innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+
+            },
+            {
+                id: 2,
+                ser: "SMO",
+                pic: "https://www.celltob.in/img/ui/smo.jpg",
+                link: "smo",
+                content: "Around 2.5 Billion+ people are active on social media on regular basis. Don't miss out the cash on table, get your social media presense secured and influence people while profiting.",
+            },
+            {
+                id: 3,
+                ser: "Monetization",
+                pic: "https://www.celltob.in/img/ui/monetize.jpg",
+                link: "monetization",
+                content: "You spend your time crafting content that your readers adore, but you’re overwhelmed by the hundreds of ad networks and monetization tools on the market.",
+            },
+
+        ],
+        faqs: [
+            {
+                id: 1,
+                que: "What is PPC advertising?",
+                ans: "PPC (Pay-Per-Click) advertising is a model where advertisers pay a fee each time their ads are clicked. It allows businesses to display ads on search engines or other platforms and reach their target audience quickly. Popular PPC platforms include Google Ads and social media advertising networks like Facebook Ads and LinkedIn Ads."
+            },
+            {
+                id: 2,
+                que: "How can I measure the success of my digital marketing campaigns?",
+                ans: "Digital marketing offers various metrics to measure campaign success. Key performance indicators (KPIs) can include website traffic, conversion rates, click-through rates (CTR), engagement metrics (likes, shares, comments), email open rates, cost per acquisition (CPA), return on investment (ROI), and more."
+            },
+            {
+                id: 3,
+                que: "How does SEO work?",
+                ans: "SEO (Search Engine Optimization) is the process of optimizing a website to improve its visibility and ranking in search engine results pages (SERPs). It involves techniques such as keyword research, on-page optimization, link building, and technical optimizations to enhance a website's relevance and authority in the eyes of search engines."
+            },
+            
+        ],
+        faqsHead: "Faq's about digital marketing",
+        link: "/marketing",
+    },
+    {
+        id: 3,
+        identity: "mobile-services",
+        icon: software,
+        title: "Mobile App Developement",
+        detail: "Build high-performance, user-friendly mobile apps tailored to your business needs, ensuring seamless functionality..",
+        incldet: "Here's what our service includes",
+        head: "comprehensive mobile app solutions",
+        hdpara: "At DDT SOFTWARE, we are passionate about crafting innovative and user-centric mobile applications that redefine digital experiences. As a leading Mobile Application Development agency, our mission is to empower businesses and individuals with cutting-edge mobile solutions that seamlessly integrate into their daily lives. From concept to deployment, we are committed to excellence in mobile app development, ensuring our clients stay ahead in the mobile-first era.",
+        mission: "Our Mission",
+        missionContent: "To be the catalyst for digital transformation by delivering exceptional and tailored mobile applications that inspire, engage, and elevate user experiences.",
+        servincld: [
+            {
+                id: 1,
+                "pic": Mob_Dev,
+                ser: "Custom Mobile App Developement",
+                link: "custom-mobile-app-developement",
+                "content": "DDT SOFTWARE & E-COMM PVT LTD is a leading custom mobile app development company committed to transforming ideas into innovative and user-friendly mobile applications. With a talented team of app developers, designers, and strategists, we specialize in crafting tailored solutions that cater to the unique needs and objectives of our clients.",
+                "mission": "Our Mission",
+                "mission_content": "To empower businesses and individuals with cutting-edge and customized mobile applications that enhance user experiences, drive engagement, and deliver tangible results.",
+                "head": "Innovation",
+                "innercontent": "A commitment to staying ahead of technological trends to provide innovative and future-proof mobile solutions.",
+                "head2": "Collaborative Approach",
+                "innercontent2": "Close collaboration with clients throughout the development process, ensuring their vision is realized.",
+                "head3": "Proven Expertise",
+                "innercontent3": "A team of experienced developers with a track record of successfully delivering diverse mobile app projects.",
+            },
+            {
+                id: 2,
+                "pic": Mob_Dev01,
+                ser: "Native App Development",
+                link: "native-app-development",
+                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+                // "head": "This is heading",
+                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+            },
+            {
+                id: 3,
+                "pic": Mob_Dev02,
+                ser: "Cross-Platform App Development",
+                link: "cross-platform-app-development",
+                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+                // "head": "This is heading",
+                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+            },
+            {
+                id: 4,
+                "pic": Mob_Dev03,
+                ser: "Mobile App UI/UX Design",
+                link: "mobile-app-design",
+                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+                // "head": "This is heading",
+                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+            },
+            {
+                id: 5,
+                "pic": Mob_Dev04,
+                ser: "App Backend Development and API Integration",
+                link: "app-backend-development-and-api-integration",
+                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+                // "head": "This is heading",
+                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+            },
+            {
+                id: 6,
+                "pic": Mob_Dev05,
+                ser: "App Testing and Quality Assurance",
+                link: "app-testing-and-quality-assurance",
+                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+                // "head": "This is heading",
+                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+            },
+            {
+                id: 7,
+                "pic": Mob_Dev06,
+                ser: "App Deployment and Support",
+                link: "app-deployment-and-support",
+                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+                // "head": "This is heading",
+                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+            }
+        ],
+        faqs: [
+            {
+                id: 1,
+                que: "Innovation at Core",
+                ans: "We thrive on innovation, staying at the forefront of emerging technologies to deliver mobile solutions that stand out in the digital landscape."
+            },
+            {
+                id: 2,
+                que: "Collaborative Partnership",
+                ans: " We believe in collaborative partnerships with our clients, working closely to understand their vision and translating it into compelling mobile applications."
+            },
+            {
+                id: 3,
+                que: "Agile Development",
+                ans: "Our agile development methodology ensures flexibility and adaptability throughout the project lifecycle, allowing for quick adjustments and continuous improvement."
+            },
+            {
+                id: 4,
+                que: "Quality Assurance",
+                ans: "Rigorous testing processes ensure the reliability, security, and performance of our mobile applications, delivering a seamless user experience."
+            },
+            {
+                id: 5,
+                que: "Are you considering migrating existing application ?",
+                ans: "If you're considering migrating your existing applications, databases, or infrastructure to the cloud, we provide seamless migration services. Our team ensures a smooth transition, minimizing downtime and disruption to your business operations. We assess your current systems, plan the migration strategy, and execute the migration process efficiently."
+            },
+        ],
+        faqsHead: "Why Choose DDT Software",
+        link: "/software",
+    },
+    {
+        id: 4,
         identity: "devops-services",
         icon: cloud,
         title: "DevOps Services ",
@@ -154,14 +435,14 @@ const serviceArray = [
         link: "devops",
     },
     {
-        id: 2,
+        id: 5,
         identity: "cloud-services",
         icon: cloud,
         title: "Cloud Services",
-        detail: "Welcome to our Cloud Services! We offer comprehensive cloud solutions to help businesses harness the full potential of modern cloud computing. Our Cloud Services are designed to empower businesses with... ",
+        detail: "At DDT Software & Ecomm Pvt. Ltd, we provide cutting-edge web cloud services designed to empower your business with flexible, secure, and scalable cloud solutions. Whether you need... ",
         incldet: "Here's what our service includes",
         head: "Cloud Solution & Business",
-        hdpara: "At DDT SOFTWARE, we are pioneers in delivering cloud services that empower businesses to harness the full potential of the cloud. As a trusted Cloud Services provider, our mission is to revolutionize the way organizations leverage technology, enabling them to scale, innovate, and thrive in the digital era. From cloud infrastructure to advanced services, we are dedicated to shaping the future of cloud computing.",
+        hdpara: "At DDT Software & Ecomm Pvt. Ltd, we provide cutting-edge web cloud services designed to empower your business with flexible, secure, and scalable cloud solutions. Whether you need cloud hosting, data storage, or cloud computing, our services ensure optimal performance, cost-efficiency, and enhanced accessibility for your operations.",
         mission: "Our Mission",
         missionContent: "To be the catalyst for digital transformation by delivering comprehensive and cutting-edge cloud solutions that drive efficiency, agility, and business success.",
         servincld: [
@@ -275,39 +556,133 @@ const serviceArray = [
         link: "/cloud",
     },
     {
-        id: 3,
-        identity: "virtual-assistant",
+        id: 6,
+        identity: "IT Staff Augmentation",
         icon: ui,
-        title: "Virtual Assistant",
-        detail: "Welcome to our Virtual Assistant Service! Our team of expert designers and developers is here to create stunning Virtual Assistants that seamlessly integrate with your business operations. We understand....",
+        title: "IT Staff Augmentation",
+        detail: "Scale your team with skilled IT professionals on demand, ensuring flexibility, faster project delivery, and cost-effective talent acquisition...",
         incldet: "Here's what our service includes",
-        head: "Virtual Assistant",
-        hdpara: "Welcome to our Virtual Assistantt Service! Our team of expert designers and developers is here to create stunning and intuitive user interfaces for your digital products. We understand that a well-designed UI is crucial for engaging users, enhancing their experience, and driving business growth. With our comprehensive UI development service.",
+        head: "IT Staff Augmentation",
+        hdpara: "IT Staff Augmentation services for DDT Software Services in the context of DevOps and Data Engineering would involve providing skilled professionals in both fields to optimize your software development lifecycle, infrastructure, and data management processes. These services allow you to quickly scale your team, access specialized expertise, and improve overall performance, reliability, and data capabilities",
+       
         servincld: [
             {
                 id: 1,
-                "pic": virtual,
-                ser: "Data Entry Operator",
-                link: "data-entry-operator",
-                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-                // "head": "This is heading",
-                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+                headingFAQ: "Key Roles for DevOps Augmentation:",
+                ser: "DevOps Staff Augmentation",
+                link: "devOps-staff-augmentation",
+                pic: staffimg,
+                content:"As mentioned earlier, DevOps professionals help streamline collaboration between development and operations, automate workflows, and ensure faster and more reliable software deployment. Here’s how they can support DDT Software Services",
+                head: "DevOps Engineers",
+                innercontent: "Implement and manage CI/CD pipelines, automate testing and deployments, and handle infrastructure automation.",
+                head2: "Cloud Architects",
+                innercontent2: "Design scalable cloud solutions, handle cloud infrastructure setup (e.g., AWS, Azure, Google Cloud), and implement best practices for security and cost optimization.",
+                head3: "Site Reliability Engineers (SREs)",
+                innercontent3: "Ensure the scalability and reliability of applications and services. They help monitor system health, troubleshoot issues, and optimize system performance.",
+
+                
+                headingList: [
+                    // {
+                    //     serviceList: "DevOps Engineers",
+                    //     detailList: "Implement and manage CI/CD pipelines, automate testing and deployments, and handle infrastructure automation."
+                    // },
+                    // {
+                    //     serviceList: "Cloud Architects",
+                    //     detailList: "Design scalable cloud solutions, handle cloud infrastructure setup (e.g., AWS, Azure, Google Cloud), and implement best practices for security and cost optimization."
+                    // },
+                    // {
+                    //     serviceList: "Site Reliability Engineers (SREs)",
+                    //     detailList: "Ensure the scalability and reliability of applications and services. They help monitor system health, troubleshoot issues, and optimize system performance."
+                    // },
+                    {
+                        serviceList: "Automation Engineers",
+                        detailList: "Specialize in automating workflows for deployment, configuration management, and cloud infrastructure provisioning (using tools like Ansible, Terraform, or Puppet)."
+                    },
+                    {
+                        serviceList: "Security Engineers (DevSecOps)",
+                        detailList: "Focus on embedding security into the development and deployment pipeline, ensuring secure coding practices, and automating security testing."
+                    }
+                ]
             },
             {
                 id: 2,
-                "pic": virtual01,
-                ser: "Excel Expertise",
-                link: "excel-expertise",
-                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-                // "head": "This is heading",
-                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+                headingFAQ: "How DevOps Augmentation Helps DDT Software Services:",
+                ser: "Data Engineering Staff Augmentation",
+                content:"For Data Engineering, professionals in this area focus on building the infrastructure and pipelines that allow organizations to collect, process, and analyze large volumes of data. As businesses become more data-driven, having a strong data engineering team is critical to ensure data is clean, reliable, and ready for analysis.",
+                link: "data-engineering-staff-augmentation",
+                pic:'https://www.datatobiz.com/wp-content/uploads/2023/10/Data-Engineering-Staff-Augmentation.jpg',
+                pelemnt: "Key Roles for Data Engineering Augmentation:",
+
+                head: "Data Engineers",
+                innercontent: "Design and implement data pipelines, manage data ingestion from various sources, and ensure data quality and integrity.",
+                head2: "Big Data Engineers",
+                innercontent2: "Work with large-scale data storage and processing platforms such as Hadoop, Spark, and NoSQL databases.",
+                head3: "ETL Developers",
+                innercontent3: "Responsible for Extract, Transform, and Load (ETL) processes that move data from source systems to data warehouses or data lakes.",
+
+                headingList: [
+                    // {
+                    //     serviceList: "Data Engineers",
+                    //     detailList: "Design and implement data pipelines, manage data ingestion from various sources, and ensure data quality and integrity."
+                    // },
+                    // {
+                    //     serviceList: "Big Data Engineers ",
+                    //     detailList: "Work with large-scale data storage and processing platforms such as Hadoop, Spark, and NoSQL databases."
+                    // },
+                    // {
+                    //     serviceList: "ETL Developers",
+                    //     detailList: "Responsible for Extract, Transform, and Load (ETL) processes that move data from source systems to data warehouses or data lakes."
+                    // },
+                    {
+                        serviceList: "Data Architects",
+                        detailList: "Design the structure of data systems, ensuring that data storage and retrieval processes are efficient and scalable."
+                    },
+                    {
+                        serviceList: "Machine Learning Engineers ",
+                        detailList: "Help build data models that are ready for use in machine learning algorithms, enabling predictive analytics."
+                    },
+                    {
+                        serviceList: "Data Analysts ",
+                        detailList: "Analyze data to uncover insights and trends, supporting business intelligence initiatives."
+                    },
+                    
+                ]
+            },
+             {
+                id: 3,
+                 pic: "https://miro.medium.com/v2/resize:fit:1024/0*i7j8kjRnBPO4wjNO.png",
+                 ser: "Combining DevOps and Data Engineering for DDT Software Services",
+                 link: "combining-devOps-and-data-engineering",
+                 content: "The combination of DevOps and Data Engineering professionals can drive significant improvements in both your software development processes and your data infrastructure. Here’s how they complement each other:",
+                 
+                 head: "Collaboration for Continuous Delivery",
+                 innercontent: "DevOps engineers can work closely with data engineers to integrate continuous delivery practices for data pipelines, ensuring that data updates and transformations are done seamlessly.",
+                 head2: "Infrastructure Management for Data Workloads:",
+                 innercontent2: "Data engineering teams will often need infrastructure that can handle large-scale data processing, and DevOps teams can help automate the provisioning and scaling of the necessary resources.",
+                 head3: "Automating Data Flow:",
+                 innercontent3: "DevOps best practices such as automation and monitoring can be extended to data engineering, ensuring that data flows smoothly from sources to analysis tools with minimal human intervention.",
+
+                 headingList: [
+                    //  {
+                    //      serviceList: "Collaboration for Continuous Delivery:",
+                    //      detailList: "DevOps engineers can work closely with data engineers to integrate continuous delivery practices for data pipelines, ensuring that data updates and transformations are done seamlessly."
+                    //  },
+                    //  {
+                    //      serviceList: "Infrastructure Management for Data Workloads:",
+                    //      detailList: "Data engineering teams will often need infrastructure that can handle large-scale data processing, and DevOps teams can help automate the provisioning and scaling of the necessary resources."
+                    //  },
+                    //  {
+                    //      serviceList: "Automating Data Flow: ",
+                    //      detailList: "DevOps best practices such as automation and monitoring can be extended to data engineering, ensuring that data flows smoothly from sources to analysis tools with minimal human intervention."
+                    //  }
+                 ]
             },
             {
-                id: 3,
-                "pic": virtual02,
-                ser: "Image Editing",
-                link: "image-editing",
-                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+                id: 4,
+               // "pic": virtual02,
+                ser: "",
+               // link: "image-editing",
+                //"content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
                 // "head": "This is heading",
                 // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
             }
@@ -329,7 +704,7 @@ const serviceArray = [
                 ans: "Yes! it is essential to provide a consistent user experience across various platforms. Our UI development service focuses on creating responsive designs that adapt smoothly to different screen sizes, resolutions, and orientations, ensuring a visually appealing and accessible interface on desktops, tablets, and mobile devices."
             }
         ],
-        faqsHead: "Faq's about UI/Ux development",
+        faqsHead: "IT Staff Augmentation Services",
         link: "/uidevelopment",
     },
     // {
@@ -419,25 +794,25 @@ const serviceArray = [
             },
             {
                 id: 2,
-                "pic": e_commerce01,
+                pic: e_commerce01,
                 ser: "Mobile-Optimized Design",
                 link: "mobile-optimized-design",
-                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+                content: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
                 // "head": "This is heading",
                 // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
             },
             {
                 id: 3,
-                "pic": e_commerce02,
+                pic: e_commerce02,
                 ser: "Shopping Cart and Payment Gateway Integration",
                 link: "shopping-cart-payment-gateway-integration",
-                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
+                content: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
                 // "head": "This is heading",
                 // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
             },
             {
                 id: 4,
-                "pic": e_commerce03,
+                pic: e_commerce03,
                 ser: "Product Catalog Management",
                 link: "product-catalog-management",
                 "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
@@ -446,7 +821,7 @@ const serviceArray = [
             },
             {
                 id: 5,
-                "pic": e_commerce04,
+                pic: e_commerce04,
                 ser: "Order Management and Fulfillment",
                 link: "order-management-fulfillment",
                 "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
@@ -504,285 +879,9 @@ const serviceArray = [
         faqsHead: "Why Choose E-Commerce Innovations",
         link: "/marketing",
     },
-    // {
-    //     id: 4,
-    //     icon: marketing,
-    //     title: "Digital Marketing",
-    //     detail: "Welcome to our Digital Marketing Service! We are dedicated to helping businesses like yours maximize their......",
-    //     incldet: "Here's what our service includes",
-    //     head: "Comprehensive digital marketing solutions",
-    //     hdpara: "Welcome to our Digital Marketing Service! We are dedicated to helping businesses like yours maximize their online presence and achieve their marketing goals. Our comprehensive digital marketing solutions are designed to drive targeted traffic, increase brand visibility, and boost conversions.",
-    //     servincld: [
-    //         {
-    //             id: 1,
-    //             ser: "Search Engine Optimization (SEO)",
-    //         },
-    //         {
-    //             id: 2,
-    //             ser: "Pay-Per-Click Advertising (PPC)",
-    //         },
-    //         {
-    //             id: 3,
-    //             ser: "Social Media Marketing",
-    //         },
-    //         {
-    //             id: 4,
-    //             ser: "Content Marketing",
-    //         },
-    //         {
-    //             id: 5,
-    //             ser: "Email Marketing",
-    //         },
-    //         {
-    //             id: 6,
-    //             ser: "Conversion Rate Optimization (CRO)",
-    //         },
-    //         {
-    //             id: 7,
-    //             ser: "Analytics and Reporting",
-    //         }
-
-    //     ],
-    //     faqs: [
-    //         {
-    //             id: 1,
-    //             que: "What is PPC advertising?",
-    //             ans: "PPC (Pay-Per-Click) advertising is a model where advertisers pay a fee each time their ads are clicked. It allows businesses to display ads on search engines or other platforms and reach their target audience quickly. Popular PPC platforms include Google Ads and social media advertising networks like Facebook Ads and LinkedIn Ads."
-    //         },
-    //         {
-    //             id: 2,
-    //             que: "How can I measure the success of my digital marketing campaigns?",
-    //             ans: "Digital marketing offers various metrics to measure campaign success. Key performance indicators (KPIs) can include website traffic, conversion rates, click-through rates (CTR), engagement metrics (likes, shares, comments), email open rates, cost per acquisition (CPA), return on investment (ROI), and more."
-    //         },
-    //         {
-    //             id: 3,
-    //             que: "How does SEO work?",
-    //             ans: "SEO (Search Engine Optimization) is the process of optimizing a website to improve its visibility and ranking in search engine results pages (SERPs). It involves techniques such as keyword research, on-page optimization, link building, and technical optimizations to enhance a website's relevance and authority in the eyes of search engines."
-    //         }
-    //     ],
-    //     faqsHead: "Faq's about digital marketing",
-    //     link: "/marketing",
-    // },
-    {
-        id: 5,
-        identity: "web-services",
-        icon: web,
-        title: "Web Development",
-        detail: "Welcome to our Web Development Services! Our commitment is to aid businesses like yours in maximizing their online presence for unparalleled success and  substantial  growth only visually appealing but....",
-        incldet: "Here's what our service includes",
-        head: "unique business needs",
-        hdpara: "At DDT SOFTWARE, we are dedicated to shaping digital experiences that captivate, engage, and inspire. As a leading Web Development agency, our mission is to empower businesses with innovative and tailor-made web solutions that not only meet but exceed their digital aspirations. With a focus on creativity, functionality, and cutting-edge technology, we bring visions to life on the web.",
-        mission: "Our Mission",
-        missionContent: "To be the catalyst for digital success by delivering exceptional, bespoke web development solutions that drive growth and foster lasting connections.",
-        servincld: [
-            {
-                id: 1,
-                "pic": Web_Dev,
-                ser: "Custom Website Development",
-                "mission": "Our Mission",
-                "mission_content": "Our mission is to be the preferred partner for businesses seeking custom web development solutions. We aim to provide seamless, secure, and scalable websites that not only meet but exceed our clients' expectations, fostering growth and success in the digital landscape.",
-                link: "custom-website-development",
-                "content": "DDT SOFTWARE & E-COMM PVT LTD is a leading Custom Website Development Company committed to delivering innovative and tailored web solutions that meet the unique needs of our clients. With a focus on cutting-edge technologies and creative design, we strive to empower businesses to establish a distinctive online presence.",
-                "head": "Expertise",
-                "innercontent": "Our team consists of skilled developers, designers, and project managers with a passion for creating unique and effective web solutions. We stay abreast of emerging technologies and design trends to deliver websites that stand out in the competitive online landscape.",
-                "head2": "Clientele",
-                "innercontent2": "DDT SOFTWARE & E-COMM PVT LTD has successfully collaborated with a diverse range of clients, including startups, small businesses, and large enterprises. Our custom website development solutions have played a pivotal role in helping clients achieve their online goals and enhance their digital presence.",
-                "head3": "Technology Stack",
-                "innercontent3": "We leverage a comprehensive set of technologies, including but not limited to HTML5, CSS3, JavaScript, PHP, Python, and popular frameworks such as React, Angular, and Vue.js.",
-            },
-            {
-                id: 2,
-                "pic": Web_Dev01,
-                ser: "Responsive Design",
-                link: "responsive-design",
-                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-                // "head": "This is heading",
-                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-            },
-            {
-                id: 3,
-                "pic": Web_Dev02,
-                ser: "Content Management Systems (CMS)",
-                link: "content-management-systems",
-                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-                // "head": "This is heading",
-                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-            },
-            {
-                id: 4,
-                "pic": Web_Dev03,
-                ser: "Web Application Development",
-                link: "web-application-development",
-                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-                // "head": "This is heading",
-                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-            },
-            {
-                id: 5,
-                "pic": Web_Dev04,
-                ser: "Website Maintenance and Support",
-                link: "website-maintenance-and-support",
-                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-                // "head": "This is heading",
-                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-            },
-            {
-                id: 6,
-                "pic": Web_Dev05,
-                ser: "Full Stack Development ",
-                "mission": "Our Mission",
-                "mission_content": "Our mission is to be the preferred partner for businesses seeking full-stack development expertise. We aim to provide holistic solutions that seamlessly integrate the front-end and back-end aspects of software development, delivering robust and user-friendly applications.",
-                link: "Full-Stack-Development",
-                "content": "DDT SOFTWARE & E-COMM PVT LTD is a leading Full Stack Development Company, specializing in end-to-end solutions that encompass both front-end and back-end development. With a commitment to excellence and innovation, we empower businesses to navigate the digital landscape with comprehensive and scalable applications.",
-                "head": "Expertise",
-                "innercontent": "Our team comprises versatile and skilled full-stack developers, UI/UX designers, and software architects. We possess expertise in a wide range of technologies, ensuring that our clients benefit from comprehensive and up-to-date solutions.",
-                "head2": "Clientele",
-                "innercontent2": "DDT SOFTWARE & E-COMM PVT LTD has successfully collaborated with a diverse range of clients, including startups, enterprises, and organizations across various industries. Our full-stack development solutions have played a crucial role in helping clients achieve digital transformation and business success.",
-                "head3": "Technology Stack",
-                "innercontent3": "We leverage a comprehensive technology stack, including front-end technologies such as React, Angular, and Vue.js, and back-end technologies such as Node.js, Django, Flask, and Ruby on Rails.",
-            },
-        ],
-        faqs: [
-            {
-                id: 1,
-                que: "Innovative Approach",
-                ans: ": We embrace the latest web technologies and design trends to deliver innovative and future-ready solutions."
-            },
-            {
-                id: 2,
-                que: "Collaborative Partnership",
-                ans: " We view our clients as partners and work collaboratively to turn their visions into digital reality, ensuring transparency and communication throughout the process."
-            },
-            {
-                id: 3,
-                que: "Experienced Team",
-                ans: "Our team of skilled developers, designers, and strategists bring a wealth of experience to every project, ensuring top-notch quality and results."
-            },
-            {
-                id: 4,
-                que: "Client Satisfaction",
-                ans: "Our success is measured by the satisfaction of our clients. We are committed to delivering projects on time, within budget, and exceeding expectations."
-            },
-            {
-                id: 5,
-                que: "Are you considering migrating existing application ?",
-                ans: "If you're considering migrating your existing applications, databases, or infrastructure to the cloud, we provide seamless migration services. Our team ensures a smooth transition, minimizing downtime and disruption to your business operations. We assess your current systems, plan the migration strategy, and execute the migration process efficiently."
-            },
-        ],
-        faqsHead: "Why Choose DDT Software",
-        link: "/webdevlopement",
-    },
-    {
-        id: 6,
-        identity: "mobile-services",
-        icon: software,
-        title: "Mobile App Developement",
-        detail: "Welcome to our Mobile App Development Services! We provide extensive software solutions tailored to meet the unique needs of your business and drive innovation through our Mobile App.....",
-        incldet: "Here's what our service includes",
-        head: "comprehensive mobile app solutions",
-        hdpara: "At DDT SOFTWARE, we are passionate about crafting innovative and user-centric mobile applications that redefine digital experiences. As a leading Mobile Application Development agency, our mission is to empower businesses and individuals with cutting-edge mobile solutions that seamlessly integrate into their daily lives. From concept to deployment, we are committed to excellence in mobile app development, ensuring our clients stay ahead in the mobile-first era.",
-        mission: "Our Mission",
-        missionContent: "To be the catalyst for digital transformation by delivering exceptional and tailored mobile applications that inspire, engage, and elevate user experiences.",
-        servincld: [
-            {
-                id: 1,
-                "pic": Mob_Dev,
-                ser: "Custom Mobile App Developement",
-                link: "custom-mobile-app-developement",
-                "content": "DDT SOFTWARE & E-COMM PVT LTD is a leading custom mobile app development company committed to transforming ideas into innovative and user-friendly mobile applications. With a talented team of app developers, designers, and strategists, we specialize in crafting tailored solutions that cater to the unique needs and objectives of our clients.",
-                "mission": "Our Mission",
-                "mission_content": "To empower businesses and individuals with cutting-edge and customized mobile applications that enhance user experiences, drive engagement, and deliver tangible results.",
-                "head": "Innovation",
-                "innercontent": "A commitment to staying ahead of technological trends to provide innovative and future-proof mobile solutions.",
-                "head2": "Collaborative Approach",
-                "innercontent2": "Close collaboration with clients throughout the development process, ensuring their vision is realized.",
-                "head3": "Proven Expertise",
-                "innercontent3": "A team of experienced developers with a track record of successfully delivering diverse mobile app projects.",
-            },
-            {
-                id: 2,
-                "pic": Mob_Dev01,
-                ser: "Native App Development",
-                link: "native-app-development",
-                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-                // "head": "This is heading",
-                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-            },
-            {
-                id: 3,
-                "pic": Mob_Dev02,
-                ser: "Cross-Platform App Development",
-                link: "cross-platform-app-development",
-                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-                // "head": "This is heading",
-                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-            },
-            {
-                id: 4,
-                "pic": Mob_Dev03,
-                ser: "Mobile App UI/UX Design",
-                link: "mobile-app-design",
-                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-                // "head": "This is heading",
-                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-            },
-            {
-                id: 5,
-                "pic": Mob_Dev04,
-                ser: "App Backend Development and API Integration",
-                link: "app-backend-development-and-api-integration",
-                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-                // "head": "This is heading",
-                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-            },
-            {
-                id: 6,
-                "pic": Mob_Dev05,
-                ser: "App Testing and Quality Assurance",
-                link: "app-testing-and-quality-assurance",
-                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-                // "head": "This is heading",
-                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-            },
-            {
-                id: 7,
-                "pic": Mob_Dev06,
-                ser: "App Deployment and Support",
-                link: "app-deployment-and-support",
-                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-                // "head": "This is heading",
-                // "innercontent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32",
-            }
-        ],
-        faqs: [
-            {
-                id: 1,
-                que: "Innovation at Core",
-                ans: "We thrive on innovation, staying at the forefront of emerging technologies to deliver mobile solutions that stand out in the digital landscape."
-            },
-            {
-                id: 2,
-                que: "Collaborative Partnership",
-                ans: " We believe in collaborative partnerships with our clients, working closely to understand their vision and translating it into compelling mobile applications."
-            },
-            {
-                id: 3,
-                que: "Agile Development",
-                ans: "Our agile development methodology ensures flexibility and adaptability throughout the project lifecycle, allowing for quick adjustments and continuous improvement."
-            },
-            {
-                id: 4,
-                que: "Quality Assurance",
-                ans: "Rigorous testing processes ensure the reliability, security, and performance of our mobile applications, delivering a seamless user experience."
-            },
-            {
-                id: 5,
-                que: "Are you considering migrating existing application ?",
-                ans: "If you're considering migrating your existing applications, databases, or infrastructure to the cloud, we provide seamless migration services. Our team ensures a smooth transition, minimizing downtime and disruption to your business operations. We assess your current systems, plan the migration strategy, and execute the migration process efficiently."
-            },
-        ],
-        faqsHead: "Why Choose DDT Software",
-        link: "/software",
-    }
+    
+ 
+   
+   
 ]
 export default serviceArray;

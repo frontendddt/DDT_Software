@@ -12,9 +12,9 @@ import
 // import logo from "../../assest/images/logomain.png"
 import { Link, NavLink } from 'react-router-dom';
 import serviceArray from '../ArrayFiles/serviceArray';
+
 // import styled from 'styled-components';
 // import { DropdownContainer, DropdownContent, DropdownItem } from './YourDropdownStyles';
-
 
 
 // const DropdownContainer = styled.div`
@@ -142,58 +142,80 @@ const Header = () =>
                 <div class="dropdown">
                   <NavLink className="nav_item dropbtn" to="/services">Services</NavLink>
                   <div class="dropdown-content">
-                    <NavLink className="top" to="/service/devops-services">DevOps Services
-                      <div className="side">
-                        {serviceArray[0].servincld.map((element) => (
-                          <NavLink key={element.id} to={`/service/devops-services/${element.link}`}>{element.ser}</NavLink>
-                        ))}
-                      </div>
-                    </NavLink>
-                    <NavLink className="top" to="/service/cloud-services">Cloud Services
-                      <div className="side">
-                        {serviceArray[1].servincld.map((element) => (
 
-                          <NavLink to={`/service/cloud-services/${element.link}`}>{element.ser}</NavLink>
-                        ))
-                        }
-                      </div>
-                    </NavLink>
-                    <NavLink className="top" to="/service/virtual-assistant">Virtual Assistant
-                      <div className="side">
-                        {serviceArray[2].servincld.map((element) =>
-                        {
-                          return <NavLink to={`/service/virtual-assistant/${element.link}`}>{element.ser}</NavLink>
-                        })
-                        }
-                      </div>
-                    </NavLink>
-                    <NavLink className="top" to="/service/ecommerce-services">E-Commerce Solutions
-                      <div className="side">
-                        {serviceArray[3].servincld.map((element) =>
-                        {
-                          return <NavLink to={`/service/ecommerce-services/${element.link}`}>{element.ser}</NavLink>
-                        })
-                        }
-                      </div>
-                    </NavLink>
                     <NavLink className="top" to="/service/web-services">Web Development
                       <div className="side">
-                        {serviceArray[4].servincld.map((element) =>
+                        {serviceArray[0].servincld.map((element) =>
                         {
                           return <NavLink to={`/service/web-services/${element.link}`}>{element.ser}</NavLink>
                         })
                         }
                       </div>
                     </NavLink>
+
+                    <NavLink className="top" to="/service/digital-marketing">Digital Marketing
+                      <div className="side">
+                        {serviceArray[1].servincld.map((element) =>
+                        {
+                          return <NavLink to={`/service/digital-marketing/${element.link}`}>{element.ser}</NavLink>
+                        })
+                        }
+                      </div>
+                    </NavLink>
+
                     <NavLink className="top" to="/service/mobile-services">Mobile App Development
                       <div className="side">
-                        {serviceArray[5].servincld.map((element) =>
+                        {serviceArray[2].servincld.map((element) =>
                         {
                           return <NavLink to={`/service/mobile-services/${element.link}`}>{element.ser}</NavLink>
                         })
                         }
                       </div>
                     </NavLink>
+
+                    <NavLink className="top" to="/service/devops-services">DevOps Services
+                      <div className="side">
+                        {serviceArray[3].servincld.map((element) => (
+                          <NavLink key={element.id} to={`/service/devops-services/${element.link}`}>{element.ser}</NavLink>
+                        ))}
+                      </div>
+                    </NavLink>
+
+                    <NavLink className="top" to="/service/cloud-services">Cloud Services
+                      <div className="side">
+                        {serviceArray[4].servincld.map((element) => (
+
+                          <NavLink to={`/service/cloud-services/${element.link}`}>{element.ser}</NavLink>
+                        ))
+                        }
+                      </div>
+                    </NavLink>
+
+                    <NavLink className="top" to="/service/IT Staff Augmentation">IT Staff Augmentation Services
+                      <div className="side">
+                        {serviceArray[5].servincld.map((element) =>
+                        {
+                          return <NavLink to={`/service/IT Staff Augmentation/${element.link}`}>{element.ser}</NavLink>
+                        })
+                        }
+                      </div>
+                    </NavLink>
+
+                    <NavLink className="top" to="/service/ecommerce-services">E-Commerce Solutions
+                      <div className="side">
+                        {serviceArray[6].servincld.map((element) =>
+                        {
+                          return <NavLink to={`/service/ecommerce-services/${element.link}`}>{element.ser}</NavLink>
+                        })
+                        }
+                      </div>
+                    </NavLink>
+
+                  
+
+                   
+
+                  
                   </div>
                 </div>
               </li>
@@ -208,11 +230,11 @@ const Header = () =>
 
                     <NavLink className="top" to="/solutions/tms">Task Management Systems
                     </NavLink>
-                    <NavLink className="top" to="/">CRM Solutions for Education based Immigration Company
 
-                    </NavLink>
-                    <NavLink className="top" to="/solutions/dms"> Document Management Systems
-                    </NavLink>
+                    <NavLink className="top" to="/solutions/crm">CRM Solutions for Education based Immigration Company </NavLink>
+
+                    <NavLink className="top" to="/solutions/dms"> Document Management Systems</NavLink>
+
                   </div>
                 </div>
               </li>

@@ -9,11 +9,13 @@ import service13 from "../../assest/images/servicedet4.jpg";
 import serviceArray from '../ArrayFiles/serviceArray';
 // import innerServices from '../ArrayFiles/innerServices';
 import { useParams } from 'react-router-dom';
+import { Accordion } from 'react-bootstrap';
 
 const SubMenuContent = () =>
 {
     const { identity, link } = useParams();
-
+    
+    
     if (!identity || !link)
     {
         return <p>Invalid URL</p>;
@@ -29,7 +31,6 @@ const SubMenuContent = () =>
     }
 
     const selectedInnerService = selectedService.servincld.find((innerService) => innerService.link === link);
-
     if (!selectedInnerService)
     {
         return <p>Inner service not found for the provided parameters</p>;
@@ -67,7 +68,26 @@ const SubMenuContent = () =>
                         <div className='it_slt_bsns_t_sec'></div>
                     </div>
 
-                    {/* {serviceArray[id-1].servincld.map((element) =>
+
+                   {
+                        // <div>
+                        //     <em><b className="paragraph">{selectedInnerService.pelemnt}</b></em>
+                        //     <ul>
+                        //         {
+                        //             selectedInnerService.headingList.map((listElement, index) => (
+                        //                 <li className="paragraph" key={index}>
+                        //                         <b>{listElement.serviceList} - </b>
+                        //                         {listElement.detailList}
+                        //                     </li>
+                        //             ))
+
+                        //         }
+                        //     </ul>
+                        // </div>
+                   }
+                    {
+
+                        /* {serviceArray[id-1].servincld.map((element) =>
                                     {
                                         return (
                                             <>

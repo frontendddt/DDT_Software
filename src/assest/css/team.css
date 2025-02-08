@@ -89,7 +89,6 @@
 }
 
 
-
 /* TEAM MEMBER DETAIL CARD CSS */
 .team_mem_img {
     display: flex;
@@ -97,7 +96,7 @@
     align-items: center;
 }
 .team_mem_img img {
-    width: 80%;
+    width: 55%;
 }
 .team_mem_dt_card {
     height: 100%;

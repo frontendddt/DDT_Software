@@ -15,6 +15,7 @@ import { Link, NavLink, useParams } from 'react-router-dom';
 const ServiceDetails = () =>
 {
     const userId = useParams();
+
     return (
         <>
             <Layout>
@@ -56,6 +57,7 @@ const ServiceDetails = () =>
                                 {
                                     serviceArray.filter(item => item.identity === userId.identity).map((index) =>
                                     {
+                                        console.log(index);
                                         return (
                                             <>
                                                 <div className='it_slt_bsns_t_sec'>
@@ -91,6 +93,7 @@ const ServiceDetails = () =>
                                                 <div className='it_slt_bsns_lt_sec'>
                                                     <img src={service12} alt={service12} />
                                                     <h2 className='service_title head'>{index.faqsHead}</h2>
+
                                                     <Accordion defaultActiveKey="0">
                                                         {
                                                             index.faqs?.map((i, id) =>
@@ -102,7 +105,6 @@ const ServiceDetails = () =>
                                                                             <p>
                                                                                 {i.ans}
                                                                             </p>
-
                                                                         </Accordion.Body>
                                                                     </Accordion.Item>
                                                                 )
@@ -110,10 +112,14 @@ const ServiceDetails = () =>
                                                         }
                                                     </Accordion>
                                                 </div>
+
                                             </>
                                         )
                                     })
                                 }
+
+                             
+
                             </div>
                         </div>
                     </div>

@@ -22,7 +22,7 @@ export const Dms = () =>
 
                         <div>
                             <p className='paragraph_element'>
-                                <b style={{ fontSize: '20px' }}>DDT Software Provides </b>
+                                <b style={{ fontSize: '20px' }}>DDT Software </b>
                                 Provides a Document Management systems designed to store, manage, and track electronic documents and
                                 images of paper-based information. Emphasize its role in digitizing, organizing, and streamlining document-centric
                                 processes for businesses. Where organizations generate and manage large volumes of documents. Highlight how DMS helps
@@ -66,8 +66,6 @@ export const Dms = () =>
                                         ))
                                     }
 
-                                    
-                                  
                                 </div>
 
                             </div>

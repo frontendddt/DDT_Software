@@ -38,13 +38,15 @@ const GetTouch = () =>
                                             <h3 className='mt-0'>
                                                 Our Office Address
                                             </h3>
-                                            <p className='paragraph mb-0'>
-                                               ~ 2nd floor, 331-B, Block-C4B
-                                            </p>
-                                            <p className='paragraph mb-0'>
-                                                Janakpuri, New Delhi-110058
-                                            </p>
-                                            <br />
+                                            {
+                                            //      <p className='paragraph mb-0'>
+                                            //    ~ 2nd floor, 331-B, Block-C4B
+                                            // </p>
+                                            // <p className='paragraph mb-0'>
+                                            //     Janakpuri, New Delhi-110058
+                                            // </p>
+                                            }
+                                        
                                             <p className='paragraph mb-0'>
                                                ~ 2nd Floor, 512, Udyog Vihar Phase V, Sector 19 <br /> Gurugram, Haryana 122008 (Night Shift)
                                             </p>

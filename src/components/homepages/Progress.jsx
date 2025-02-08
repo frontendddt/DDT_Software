@@ -26,6 +26,42 @@ const Progress = () =>
                                 Interactively simplify interactive customer service before fully tested relationship parallel
                                 task high standards...
                             </p>
+
+                            <div className='bars'>
+                                <div className='bar_label'>
+                                    <h2>
+                                        Web Development
+                                    </h2>
+                                    <h2>
+                                        75%
+                                    </h2>
+                                </div>
+                                <ProgressBar now={business} />
+                            </div>
+
+                            <div className='bars'>
+                                <div className='bar_label'>
+                                    <h2>
+                                        Digital Marketing
+                                    </h2>
+                                    <h2>
+                                        60%
+                                    </h2>
+                                </div>
+                                <ProgressBar now={business} />
+                            </div>
+                            <div className='bars'>
+                                <div className='bar_label'>
+                                    <h2>
+                                        Mobile App Developement
+                                    </h2>
+                                    <h2>
+                                        70%
+                                    </h2>
+                                </div>
+                                <ProgressBar now={business} />
+                            </div>
+
                             <div className='bars'>
                                 <div className='bar_label'>
                                     <h2>
@@ -41,7 +77,7 @@ const Progress = () =>
                             <div className='bars'>
                                 <div className='bar_label'>
                                     <h2>
-                                        AWS Services
+                                        Cloud Services
                                     </h2>
                                     <h2>
                                         90%
@@ -53,8 +89,7 @@ const Progress = () =>
                             <div className='bars'>
                                 <div className='bar_label'>
                                     <h2>
-                                        Website Development
-
+                                        IT Staff Augmentation
                                     </h2>
                                     <h2>
                                         85%
@@ -62,9 +97,20 @@ const Progress = () =>
                                 </div>
                                 <ProgressBar now={innovation} />
                             </div>
+                            <div className='bars'>
+                                <div className='bar_label'>
+                                    <h2>
+                                        Website Development
+                                    </h2>
+                                    <h2>
+                                        90%
+                                    </h2>
+                                </div>
+                                <ProgressBar now={innovation} />
+                            </div>
                         </div>
                     </div>
-                    <div className='col-lg-6'>
+                    <div className='col-lg-6 d-flex align-items-center'>
                         <img src={progressImg} className='img-fluid' alt={progressImg} />
                     </div>
                 </div>

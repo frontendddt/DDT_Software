@@ -17,7 +17,10 @@ import Solutions from '../components/solutions/Solutions';
 
 import { HrmsSolutions } from '../components/solutions/HrmsSolutions';
 import { Tms } from '../components/solutions/Tms';
-import { Dms } from '../components/solutions/Dms'
+import { Dms } from '../components/solutions/Dms';
+import Crm from '../components/solutions/Crm';
+//import ItStaff from '../components/servicePages/ItStaff'
+
 const HomeRoutes = () =>
 {
   return (
@@ -27,13 +30,15 @@ const HomeRoutes = () =>
       <Route exact path="/team" element={<Team />} />
       <Route exact path="/team-detail/:id" element={<TeamCard />} />
       <Route exact path="/contact" element={<GetTouch />} />
-      <Route exact path="/services" element={<Service />} />
 
+      <Route exact path="/services" element={<Service />}/>
+    
       <Route path="/solutions" element={<Solutions />}>
         {/* Nested Route */}
         <Route path="hrmsSolutions" element={<HrmsSolutions />} />
         <Route path='tms' element={<Tms />} />
         <Route path='dms' element={<Dms />} />
+        <Route path='Crm' element={<Crm />} />
       </Route>
 
 
